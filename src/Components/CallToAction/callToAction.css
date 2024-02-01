@@ -1,0 +1,32 @@
+/********** Bouton d'Appel à L'action **********/
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button-wrapper a {
+    background-color: #32373f;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+    border: 2px solid #3F4451;
+}
+
+.button-wrapper a:hover {
+    background-color: #3F4451;
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+    border: 2px solid #607E89;
+}

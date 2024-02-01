@@ -1,0 +1,43 @@
+/********** Barre de navigation **********/
+
+.navbar {
+  background-color: transparent;
+  background-image: url("../../Assets/Images/bg-header.jpg");
+  border-color: transparent;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand > img {
+  max-height: 100px;
+  height: 50px;
+  position: relative;
+  float: left;
+  z-index: 1000;
+}
+
+.navbar-toggler {
+  border-color: #f2f2f2;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke='%23f2f2f2' stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e");
+}
+
+.nav-link {
+  color: #f2f2f2;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.nav-link:hover {
+  background-color: #0d1c25;
+  color: #f2f2f2;
+  border-radius: 20px;
+}
+
+img.logo {
+  border-radius: 0;
+}

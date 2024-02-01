@@ -1,0 +1,46 @@
+/********** Formulaire témoignages clients **********/
+
+#temoignages {
+    margin-bottom: 20px;
+}
+
+#temoignages h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#ajouter-temoignage {
+    border: 1px solid #3f4451;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#ajouter-temoignage h2 {
+    font-size: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form textarea,
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #0D1C25;
+    
+}
+
+form input[type="submit"] {
+    background-color: #3F4451;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

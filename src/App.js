@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./Assets/css/style.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import CustomNavbar from "./Components/CustomNavbar/customNavbar.jsx";
+import Accueil from "./Pages/Accueil/accueil.jsx";
+import Vehicules from "./Pages/Vehicules/vehicules.jsx";
+import Footer from "./Components/Footer/footer.jsx";
+import Services from "./Pages/Services/services.jsx";
+import Caracteristiques from "./Components/Caracteristiques/caracteristiques.jsx";
+import DashboardAdmin from "./Components/Admin/DashboardAdmin/dashboardAdmin.jsx";
 
+
+// Composant principal de l'application
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <CustomNavbar />
+        <div>
+          <Routes>
+            <Route path="/" element={<Accueil />} />
+            <Route path="/Services" element={<Services />} />
+            <Route path="/Vehicules" element={<Vehicules />} />
+            <Route path="/Caracteristiques/:id" element={<Caracteristiques />} />
+            <Route path="/Admin/*" element={<DashboardAdmin />} />
+          </Routes>
+        </div>
+      </Router>
+      <Footer />
+    </>
   );
 }
 
