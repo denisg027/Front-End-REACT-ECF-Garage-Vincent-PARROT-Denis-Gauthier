@@ -1,0 +1,20 @@
+/********** Général **********/
+* {
+    box-sizing: border-box;
+    font-family: 'IBM Plex Serif', serif;
+
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url('../src/Assets/Images/background.jpg');
+
+}
+
+

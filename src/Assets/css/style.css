@@ -1,0 +1,11 @@
+body {
+  background-image: url("../Images/background.jpg");
+}
+
+#main {
+    min-height: 100%;
+    position: relative;
+    
+}
+
+

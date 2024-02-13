@@ -1,0 +1,27 @@
+
+
+.carousel {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-container {
+  max-width: 650px;
+  margin: auto;
+}
+
+.carousel-container .carousel-item img {
+  max-width: 100%;
+  width: auto;
+}
+
+a {
+  color: #3F4451;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+h2.text-center {
+  margin-top: 20px;
+}
