@@ -46,12 +46,12 @@ function CustomNavbar({ loggedIn, firstname, lastname }) {
                 </LinkContainer>
               </>
             ) : (
-              <LinkContainer to="/Login">
+              <LinkContainer to="/router.php?page=login">
                 <Nav.Link onClick={closeMenu}>Connexion</Nav.Link>
               </LinkContainer>
             )}
           </Nav>
-          </Navbar.Collapse>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );
