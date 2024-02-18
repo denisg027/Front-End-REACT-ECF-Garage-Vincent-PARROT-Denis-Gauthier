@@ -8,7 +8,7 @@ import Footer from "./Components/Footer/footer.jsx";
 import Services from "./Pages/Services/services.jsx";
 import Caracteristiques from "./Components/Caracteristiques/caracteristiques.jsx";
 import ReservationAtelier from "./Pages/ReservationAtelier/reservationAtelier.jsx";
-import Login from "./Pages/Login/login.jsx";
+
 
 
 // Composant principal de l'application
@@ -30,8 +30,6 @@ function App() {
               path="/ReservationAtelier"
               element={<ReservationAtelier />}
             />
-            <Route path="/Login" element={<Login />} />
-            
           </Routes>
         </div>
       </Router>

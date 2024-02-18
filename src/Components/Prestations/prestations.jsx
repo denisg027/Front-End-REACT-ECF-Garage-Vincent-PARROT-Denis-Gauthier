@@ -9,7 +9,7 @@ const Prestations = () => {
     const fetchPrestations = async () => {
       try {
         const response = await fetch(
-          "https://retz-o-lution-informatique.fr/Garage-Vincent-Parrot.com/api/services-api.php"
+          "https://retz-o-lution-informatique.fr/Garage-Vincent-Parrot.com/Api/services-api.php"
         );
         const data = await response.json();
         setPrestations(data);
@@ -50,14 +50,14 @@ const Prestations = () => {
           <Col>
             <h3>Nos Prestations Incluent :</h3>
             {prestations.map((service, index) => {
-              const imageUrl = `https://retz-o-lution-informatique.fr/Garage-Vincent-Parrot.com/images/${service.service_picture}`;
+              const imageUrl = `https://retz-o-lution-informatique.fr/Garage-Vincent-Parrot.com/Public/images/${service.service_picture}`;
               console.log(imageUrl); // Afficher l'URL de l'image dans la console pour la vérifier
               return (
                 <Card key={index} className="mb-3">
                   <Row noGutters>
                     <Col md={6}>
                       <Image
-                        src={`https://retz-o-lution-informatique.fr/Garage-Vincent-Parrot.com/images/${service.service_picture}`}
+                        src={`https://retz-o-lution-informatique.fr/Garage-Vincent-Parrot.com/Public/images/${service.service_picture}`}
                         alt={service.service_name}
                         fluid
                       />
@@ -100,7 +100,7 @@ const Prestations = () => {
             <Col md={3} key={index}>
               <Image
                 className="d-block mb-4 h-100"
-                src={`https://retz-o-lution-informatique.fr/Garage-Vincent-Parrot.com/images/${imageName}`}
+                src={`https://retz-o-lution-informatique.fr/Garage-Vincent-Parrot.com/Public/images/${imageName}`}
                 alt={`prestations${index}`}
                 fluid
               />
