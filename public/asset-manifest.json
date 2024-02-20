@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5282a91.css",
-    "main.js": "/static/js/main.c19ece34.js",
-    "static/js/592.07f8bd7a.chunk.js": "/static/js/592.07f8bd7a.chunk.js",
-    "static/media/garage-v.parrot.png": "/static/media/garage-v.parrot.b2faa27d992b4a8fa0bc.png",
-    "static/media/reset.png": "/static/media/reset.5b15be89383c97f5f63e.png",
-    "static/media/bg-footer.jpg": "/static/media/bg-footer.56e38211f9c5c4fc53a8.jpg",
-    "static/media/bg-header.jpg": "/static/media/bg-header.56e38211f9c5c4fc53a8.jpg",
-    "static/media/background.jpg": "/static/media/background.db67a1007b835490012c.jpg",
-    "index.html": "/index.html",
-    "main.a5282a91.css.map": "/static/css/main.a5282a91.css.map",
-    "main.c19ece34.js.map": "/static/js/main.c19ece34.js.map",
-    "592.07f8bd7a.chunk.js.map": "/static/js/592.07f8bd7a.chunk.js.map"
+    "main.css": "/Garage-Vincent-Parrot.com/static/css/main.4f147c39.css",
+    "main.js": "/Garage-Vincent-Parrot.com/static/js/main.666a9346.js",
+    "static/js/592.07f8bd7a.chunk.js": "/Garage-Vincent-Parrot.com/static/js/592.07f8bd7a.chunk.js",
+    "static/media/garage-v.parrot.png": "/Garage-Vincent-Parrot.com/static/media/garage-v.parrot.b2faa27d992b4a8fa0bc.png",
+    "static/media/reset.png": "/Garage-Vincent-Parrot.com/static/media/reset.5b15be89383c97f5f63e.png",
+    "static/media/bg-footer.jpg": "/Garage-Vincent-Parrot.com/static/media/bg-footer.56e38211f9c5c4fc53a8.jpg",
+    "static/media/bg-header.jpg": "/Garage-Vincent-Parrot.com/static/media/bg-header.56e38211f9c5c4fc53a8.jpg",
+    "static/media/background.jpg": "/Garage-Vincent-Parrot.com/static/media/background.db67a1007b835490012c.jpg",
+    "index.html": "/Garage-Vincent-Parrot.com/index.html",
+    "main.4f147c39.css.map": "/Garage-Vincent-Parrot.com/static/css/main.4f147c39.css.map",
+    "main.666a9346.js.map": "/Garage-Vincent-Parrot.com/static/js/main.666a9346.js.map",
+    "592.07f8bd7a.chunk.js.map": "/Garage-Vincent-Parrot.com/static/js/592.07f8bd7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5282a91.css",
-    "static/js/main.c19ece34.js"
+    "static/css/main.4f147c39.css",
+    "static/js/main.666a9346.js"
   ]
 }

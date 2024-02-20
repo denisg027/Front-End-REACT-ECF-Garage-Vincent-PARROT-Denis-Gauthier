@@ -10,7 +10,6 @@ import Caracteristiques from "./Components/Caracteristiques/caracteristiques.jsx
 import ReservationAtelier from "./Pages/ReservationAtelier/reservationAtelier.jsx";
 
 
-
 // Composant principal de l'application
 function App() {
   return (
@@ -30,6 +29,7 @@ function App() {
               path="/ReservationAtelier"
               element={<ReservationAtelier />}
             />
+            
           </Routes>
         </div>
       </Router>

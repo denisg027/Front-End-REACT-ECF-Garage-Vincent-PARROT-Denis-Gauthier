@@ -72,7 +72,7 @@ function Caracteristiques() {
       <div className="row">
         <div className="col-md-6">
           <img
-            src={`https://retz-o-lution-informatique.fr/Garage-Vincent-Parrot.com/Public/images/${car.pictures}`}
+            src={`https://retz-o-lution-informatique.fr/Garage-Vincent-Parrot.com/images/${car.pictures}`}
             alt={`${car.brand} ${car.model}`}
             className="img-fluid"
           />
@@ -82,7 +82,7 @@ function Caracteristiques() {
                 car[`pictures${index + 1}`] && (
                   <img
                     key={index}
-                    src={`https://retz-o-lution-informatique.fr/Garage-Vincent-Parrot.com/Public/images/${
+                    src={`https://retz-o-lution-informatique.fr/Garage-Vincent-Parrot.com/images/${
                       car[`pictures${index + 1}`]
                     }`}
                     alt={`${car.brand} ${car.model} - Additional View ${

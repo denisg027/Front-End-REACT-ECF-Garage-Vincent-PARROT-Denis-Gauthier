@@ -91,7 +91,7 @@ const Automobiles = () => {
         onClick={toggleFilterPanel}
       >
         <img
-          src="https://retz-o-lution-informatique.fr/Garage-Vincent-Parrot.com/Public/images/filtre.png"
+          src="https://retz-o-lution-informatique.fr/Garage-Vincent-Parrot.com/images/filtre.png"
           alt="Filtrer"
         />
       </Button>
@@ -202,7 +202,7 @@ const Automobiles = () => {
             <Card>
               <Card.Img
                 variant="top"
-                src={`https://retz-o-lution-informatique.fr/Garage-Vincent-Parrot.com/Public/images/${car.pictures}`}
+                src={`https://retz-o-lution-informatique.fr/Garage-Vincent-Parrot.com/images/${car.pictures}`}
               />
               <Card.Body>
                 <span className="price">{car.price} €</span>
@@ -222,7 +222,7 @@ const Automobiles = () => {
                     <span className="km">{car.mileage} km</span>
                     <span className="icoKM">
                       <img
-                        src="https://retz-o-lution-informatique.fr/Garage-Vincent-Parrot.com/Public/images/ico-km.png"
+                        src="https://retz-o-lution-informatique.fr/Garage-Vincent-Parrot.com/images/ico-km.png"
                         alt="Icône KM"
                       />
                     </span>

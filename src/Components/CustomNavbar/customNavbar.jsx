@@ -17,7 +17,7 @@ function CustomNavbar({ loggedIn, firstname, lastname }) {
         <Navbar.Brand href="/">
           <img
             className="logo"
-            src="https://retz-o-lution-informatique.fr/Garage-Vincent-Parrot.com/Public/images/Logo.png"
+            src="https://retz-o-lution-informatique.fr/Garage-Vincent-Parrot.com/images/Logo.png"
             alt="Garage Vincent Parrot"
           />
         </Navbar.Brand>
@@ -41,14 +41,14 @@ function CustomNavbar({ loggedIn, firstname, lastname }) {
                 <Nav.Link
                   onClick={closeMenu}
                 >{`Bonjour, ${firstname} ${lastname}`}</Nav.Link>
-                <LinkContainer to="/logout">
+                <LinkContainer to="/logout.php">
                   <Nav.Link onClick={closeMenu}>Déconnexion</Nav.Link>
                 </LinkContainer>
               </>
             ) : (
-              <LinkContainer to="/router.php?page=login">
-                <Nav.Link onClick={closeMenu}>Connexion</Nav.Link>
-              </LinkContainer>
+              <Nav.Link href="/login.php" onClick={closeMenu}>
+                Connexion
+              </Nav.Link>
             )}
           </Nav>
         </Navbar.Collapse>
